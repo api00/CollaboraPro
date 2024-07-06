@@ -1,0 +1,35 @@
+
+/* Hero Section */
+.hero {
+    background-color: #2d3748; /* Dark blue-gray background */
+    color: #fff; /* White text */
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.hero .btn-signup {
+    background-color: #4a90e2; /* Blue button */
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.125rem; /* 18px */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-signup:hover {
+    background-color: #2c5282; /* Darker blue on hover */
+}

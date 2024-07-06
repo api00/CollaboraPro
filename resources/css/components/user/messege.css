@@ -1,0 +1,37 @@
+/* Messages styling - start */
+#messages {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+.bg-white-creme {
+    background-color: #f8f4e8; /* Custom white+creme mixture */
+}
+
+.chat-item {
+    transition: background-color 0.3s ease;
+}
+
+.chat-item:hover {
+    background-color: #e2e2e2; /* Light grey for hover effect */
+}
+
+.chat-input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.chat-input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-messages {
+    max-height: calc(100vh - 10rem); /* Adjust based on header and input height */
+}
+
+#chat-window {
+    min-height: 78vh;
+}
+/* Messages styling - end */

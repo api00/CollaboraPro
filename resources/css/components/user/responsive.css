@@ -1,0 +1,42 @@
+/* Responsive adjustments - start */
+@media (max-width: 768px) {
+    .bg-gradient-to-br {
+        /* Adjust gradient background for smaller screens if needed */
+        background: linear-gradient(to bottom right, #8B5CF6, #4299E1);
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+/* Responsive adjustments - end */
+
+
+@media (max-width: 768px) {
+    #home {
+        margin-top: 30px;
+    }
+
+    #projects {
+        margin-top: 30px;
+    }
+
+    #tasks {
+        margin-top: 30px;
+    }
+
+    #messages {
+        margin-top: 30px;
+    }
+
+    #notifications {
+        margin-top: 30px;
+    }
+    #profile {
+        margin-top: 30px;
+    }
+    #settings {
+        margin-top: 30px;
+    }
+}
+/* Mobile menu styling - end */

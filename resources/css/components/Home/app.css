@@ -1,0 +1,19 @@
+/*css's for home*/
+@import "feature.css";
+@import "footer.css";
+@import "header.css";
+@import "hero.css";
+@import "main.css";
+@import "pricing.css";
+@import "responsive.css";
+@import "testimonial.css";
+
+
+
+/*@import "userDashboard.css";*/
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

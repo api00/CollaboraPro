@@ -1,0 +1,14 @@
+
+/* Footer Styles */
+footer {
+    background-color: #1a202c; /* Dark background */
+    color: #cbd5e0; /* Light gray text */
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 0rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.875rem; /* 14px */
+}

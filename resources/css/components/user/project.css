@@ -1,0 +1,113 @@
+/* Project card styling - start */
+.project-card {
+    background: linear-gradient(135deg, #1f2937 0%, #3b3f45 100%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card img {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card .p-4 {
+    padding: 1rem;
+}
+
+.project-card .text-sm {
+    font-size: 0.875rem;
+}
+
+.project-card .text-xl {
+    font-size: 1.25rem;
+}
+
+.project-card .text-4xl {
+    font-size: 2.25rem;
+}
+
+.project-card .text-white {
+    color: #ffffff;
+}
+
+.project-card .text-gray-300 {
+    color: #d1d5db;
+}
+
+.project-card .text-gray-400 {
+    color: #9ca3af;
+}
+
+.project-card .text-green-400 {
+    color: #34d399;
+}
+
+.project-card .text-yellow-400 {
+    color: #fbbf24;
+}
+
+.project-card .text-red-400 {
+    color: #f87171;
+}
+
+.project-card .text-blue-400 {
+    color: #60a5fa;
+}
+
+.project-card .text-blue-600:hover {
+    color: #2563eb;
+}
+
+.project-card .bg-green-900 {
+    background-color: #064e3b;
+}
+
+.project-card .bg-yellow-900 {
+    background-color: #78350f;
+}
+
+.project-card .bg-red-900 {
+    background-color: #7f1d1d;
+}
+
+.project-card .bg-gray-700 {
+    background-color: #374151;
+}
+
+.project-card .bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.project-card .hover\:bg-blue-700:hover {
+    background-color: #1d4ed8;
+}
+
+.project-card .hover\:bg-yellow-700:hover {
+    background-color: #d97706;
+}
+
+.project-card .hover\:bg-red-700:hover {
+    background-color: #b91c1c;
+}
+/* Project card styling - end */
+
+/* Progress bar styling - start */
+#progress-bar {
+    width: 0%;
+    transition: width 1s ease-in-out; /* Adjust transition duration for smoother animation */
+}
+
+#progress-wrapper {
+    height: 10px; /* Adjust the height of the progress bar */
+}
+
+#progress-percent {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-family: 'Space Grotesk', sans-serif; /* Use Grotesk font family */
+}
+/* Progress bar styling - end */

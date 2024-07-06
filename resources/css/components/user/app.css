@@ -1,0 +1,16 @@
+/*css's for users*/
+@import "animation.css";
+@import "footer.css";
+@import "menu.css";
+@import "messege.css";
+@import "Notifications.css";
+@import "profile.css";
+@import "project.css";
+@import "responsive.css";
+@import "settings.css";
+@import "task.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

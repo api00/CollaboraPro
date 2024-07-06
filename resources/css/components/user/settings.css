@@ -1,0 +1,30 @@
+#settings {
+    min-height: 74vh;
+}
+/* Custom CSS for Settings Section - start */
+.bg-white-cream-gradient {
+    background: linear-gradient(135deg, #f7f7f7, #fffbea);
+}
+
+.menu-link {
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.menu-link:hover {
+    color: #1d4ed8; /* Blue color on hover */
+    border-bottom: 2px solid #1d4ed8; /* Blue border on hover */
+}
+
+.settings-link {
+    transition: color 0.3s;
+}
+
+.logout-button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout-button:hover {
+    transform: scale(1.05);
+}
+/* Custom CSS for Settings Section - end */
+
